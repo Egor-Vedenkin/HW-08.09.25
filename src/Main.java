@@ -52,5 +52,16 @@ public class Main {
         // Отступ для визуального разделения задач
         System.out.println();
 
+        // Задача 5
+        var summaryPaints = 120;
+        var whitePaintPerClass = 2;
+        var brownPaintPerClass = 4;
+        var whiteQuantity = summaryPaints / (whitePaintPerClass + brownPaintPerClass) * whitePaintPerClass;
+        var brownQuantity = summaryPaints / (whitePaintPerClass + brownPaintPerClass) * brownPaintPerClass;
+        var classesQuantity = whiteQuantity / whitePaintPerClass;
+        System.out.println("В школе, где " + classesQuantity + " классов, нужно " + whiteQuantity + " банок белой краски и " + brownQuantity + " банок коричневой краски");
+        // Отступ для визуального разделения задач
+        System.out.println();
+
     }
 }
