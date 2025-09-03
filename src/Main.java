@@ -28,7 +28,29 @@ public class Main {
         byte var7 = 67;
 
         // Задача 3
+        var quantityStudentsL = 23;
+        var quantityStudentsA = 27;
+        var quantityStudentsE = 30;
+        var summaryStudents = quantityStudentsE + quantityStudentsL + quantityStudentsA;
+        var paperLists = 480;
+        var listsPerStudents = paperLists / summaryStudents;
+        System.out.println("На каждого ученика рассчитано " + listsPerStudents + " листов бумаги");
+        // Отступ для визуального разделения задач
+        System.out.println();
 
+        // Задача 4
+        var efficiency = 16;
+        var effPerMin = efficiency / 2;
+        var bottlesPer20 = effPerMin * 20;
+        System.out.println("За 20 минут машина произвела " + bottlesPer20 + " штук бутылок");
+        var bottlesPerDay = effPerMin * 60 * 24;
+        System.out.println("За сутки машина произвела " + bottlesPerDay + " штук бутылок");
+        var bottlesPerThreeDays = bottlesPerDay * 3;
+        System.out.println("За 3 дня машина произвела " + bottlesPerThreeDays + " штук бутылок");
+        var bottlesPerMonth = bottlesPerDay * 30;
+        System.out.println("За месяц машина произвела " + bottlesPerMonth + " штук бутылок");
+        // Отступ для визуального разделения задач
+        System.out.println();
 
     }
 }
