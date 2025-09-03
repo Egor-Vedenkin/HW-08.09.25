@@ -19,56 +19,56 @@ public class Main {
         System.out.println();
 
         // Задача 2
-        float var1 = 27.12f;
-        long var2 = 987_678_965_549L;
-        float var3 = 2.786f;
-        short var4 = 569;
-        short var5 = -159;
-        short var6 = 27897;
-        byte var7 = 67;
+        float a = 27.12f;
+        long b = 987_678_965_549L;
+        float c = 2.786f;
+        short d = 569;
+        short e = -159;
+        short f = 27897;
+        byte g = 67;
 
         // Задача 3
-        var quantityStudentsL = 23;
-        var quantityStudentsA = 27;
-        var quantityStudentsE = 30;
-        var summaryStudents = quantityStudentsE + quantityStudentsL + quantityStudentsA;
-        var paperLists = 480;
-        var listsPerStudents = paperLists / summaryStudents;
+        int quantityStudentsL = 23;
+        int quantityStudentsA = 27;
+        int quantityStudentsE = 30;
+        int paperLists = 480;
+        int summaryStudents = quantityStudentsE + quantityStudentsL + quantityStudentsA;
+        int listsPerStudents = paperLists / summaryStudents;
         System.out.println("На каждого ученика рассчитано " + listsPerStudents + " листов бумаги");
         // Отступ для визуального разделения задач
         System.out.println();
 
         // Задача 4
-        var efficiency = 16;
-        var effPerMin = efficiency / 2;
-        var bottlesPer20 = effPerMin * 20;
-        System.out.println("За 20 минут машина произвела " + bottlesPer20 + " штук бутылок");
-        var bottlesPerDay = effPerMin * 60 * 24;
+        int efficiency = 16;
+        int effPerMin = efficiency / 2;
+        int bottlesStart = effPerMin * 20;
+        System.out.println("За 20 минут машина произвела " + bottlesStart + " штук бутылок");
+        int bottlesPerDay = effPerMin * 60 * 24;
         System.out.println("За сутки машина произвела " + bottlesPerDay + " штук бутылок");
-        var bottlesPerThreeDays = bottlesPerDay * 3;
+        int bottlesPerThreeDays = bottlesPerDay * 3;
         System.out.println("За 3 дня машина произвела " + bottlesPerThreeDays + " штук бутылок");
-        var bottlesPerMonth = bottlesPerDay * 30;
+        int bottlesPerMonth = bottlesPerDay * 30;
         System.out.println("За месяц машина произвела " + bottlesPerMonth + " штук бутылок");
         // Отступ для визуального разделения задач
         System.out.println();
 
         // Задача 5
-        var summaryPaints = 120;
-        var whitePaintPerClass = 2;
-        var brownPaintPerClass = 4;
-        var whiteQuantity = summaryPaints / (whitePaintPerClass + brownPaintPerClass) * whitePaintPerClass;
-        var brownQuantity = summaryPaints / (whitePaintPerClass + brownPaintPerClass) * brownPaintPerClass;
-        var classesQuantity = whiteQuantity / whitePaintPerClass;
+        int summaryPaints = 120;
+        int whitePaintPerClass = 2;
+        int brownPaintPerClass = 4;
+        int whiteQuantity = summaryPaints / (whitePaintPerClass + brownPaintPerClass) * whitePaintPerClass;
+        int brownQuantity = summaryPaints / (whitePaintPerClass + brownPaintPerClass) * brownPaintPerClass;
+        int classesQuantity = whiteQuantity / whitePaintPerClass;
         System.out.println("В школе, где " + classesQuantity + " классов, нужно " + whiteQuantity + " банок белой краски и " + brownQuantity + " банок коричневой краски");
         // Отступ для визуального разделения задач
         System.out.println();
 
         // Задача 6
-        var bananas = 5 * 80;
-        var milk = 200 / 100 * 105;
-        var iceCream = 2 * 100;
-        var eggs = 4 * 70;
-        var weightGr = bananas + milk + iceCream + eggs;
+        int bananas = 5 * 80;
+        int milk = 200 / 100 * 105;
+        int iceCream = 2 * 100;
+        int eggs = 4 * 70;
+        int weightGr = bananas + milk + iceCream + eggs;
         int grPerKg = 1000;
         float weightKg = weightGr / (float) grPerKg;
         System.out.println("Результат в граммах равен " + weightGr + ", а в килограммах - " + weightKg);
@@ -76,27 +76,27 @@ public class Main {
         System.out.println();
 
         // Задача 7
-        var weightLessGr = 7 * 1000;
-        var daysMax = weightLessGr / 250;
+        short weightLessGr = 7 * 1000;
+        int daysMax = weightLessGr / 250;
         System.out.println("Если спортсмен будет терять по 250 грамм в день, то сбросит 7 кг за " + daysMax + " дней");
-        var daysMin = weightLessGr / 500;
+        int daysMin = weightLessGr / 500;
         System.out.println("Если спортсмен будет терять по 500 грамм в день, то сбросит 7 кг за " + daysMin + " дней");
         // Отступ для визуального разделения задач
         System.out.println();
 
         // Задача 8
-        int MashaClaims = 67760;
-        int DenisClaims = 83690;
-        int KristinaClaims = 76230;
-        int MashaRaising = (int) (MashaClaims * 1.1);
-        int DenisRaising = (int) (DenisClaims * 1.1);
-        int KristinaRaising = (int) (KristinaClaims * 1.1);
-        int MashaDiff = MashaRaising - MashaClaims;
-        int DenisDiff = DenisRaising - DenisClaims;
-        int KristinaDiff = KristinaRaising - KristinaClaims;
-        System.out.println("Маша теперь получает " + MashaRaising + " рублей. Годовой доход вырос на " + MashaDiff + " рублей");
-        System.out.println("Денис теперь получает " + DenisRaising + " рублей. Годовой доход вырос на " + DenisDiff + " рублей");
-        System.out.println("Кристина теперь получает " + KristinaRaising + " рублей. Годовой доход вырос на " + KristinaDiff + " рублей");
+        int mashaClaims = 67760;
+        int denisClaims = 83690;
+        int kristinaClaims = 76230;
+        int mashaRaising = (int) (mashaClaims * 1.1);
+        int denisRaising = (int) (denisClaims * 1.1);
+        int kristinaRaising = (int) (kristinaClaims * 1.1);
+        int mashaDiff = mashaRaising - mashaClaims;
+        int denisDiff = denisRaising - denisClaims;
+        int kristinaDiff = kristinaRaising - kristinaClaims;
+        System.out.println("Маша теперь получает " + mashaRaising + " рублей. Годовой доход вырос на " + mashaDiff + " рублей");
+        System.out.println("Денис теперь получает " + denisRaising + " рублей. Годовой доход вырос на " + denisDiff + " рублей");
+        System.out.println("Кристина теперь получает " + kristinaRaising + " рублей. Годовой доход вырос на " + kristinaDiff + " рублей");
 
     }
 }
