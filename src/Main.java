@@ -84,5 +84,19 @@ public class Main {
         // Отступ для визуального разделения задач
         System.out.println();
 
+        // Задача 8
+        int MashaClaims = 67760;
+        int DenisClaims = 83690;
+        int KristinaClaims = 76230;
+        int MashaRaising = (int) (MashaClaims * 1.1);
+        int DenisRaising = (int) (DenisClaims * 1.1);
+        int KristinaRaising = (int) (KristinaClaims * 1.1);
+        int MashaDiff = MashaRaising - MashaClaims;
+        int DenisDiff = DenisRaising - DenisClaims;
+        int KristinaDiff = KristinaRaising - KristinaClaims;
+        System.out.println("Маша теперь получает " + MashaRaising + " рублей. Годовой доход вырос на " + MashaDiff + " рублей");
+        System.out.println("Денис теперь получает " + DenisRaising + " рублей. Годовой доход вырос на " + DenisDiff + " рублей");
+        System.out.println("Кристина теперь получает " + KristinaRaising + " рублей. Годовой доход вырос на " + KristinaDiff + " рублей");
+
     }
 }
