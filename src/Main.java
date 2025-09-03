@@ -63,5 +63,26 @@ public class Main {
         // Отступ для визуального разделения задач
         System.out.println();
 
+        // Задача 6
+        var bananas = 5 * 80;
+        var milk = 200 / 100 * 105;
+        var iceCream = 2 * 100;
+        var eggs = 4 * 70;
+        var weightGr = bananas + milk + iceCream + eggs;
+        int grPerKg = 1000;
+        float weightKg = weightGr / (float) grPerKg;
+        System.out.println("Результат в граммах равен " + weightGr + ", а в килограммах - " + weightKg);
+        // Отступ для визуального разделения задач
+        System.out.println();
+
+        // Задача 7
+        var weightLessGr = 7 * 1000;
+        var daysMax = weightLessGr / 250;
+        System.out.println("Если спортсмен будет терять по 250 грамм в день, то сбросит 7 кг за " + daysMax + " дней");
+        var daysMin = weightLessGr / 500;
+        System.out.println("Если спортсмен будет терять по 500 грамм в день, то сбросит 7 кг за " + daysMin + " дней");
+        // Отступ для визуального разделения задач
+        System.out.println();
+
     }
 }
